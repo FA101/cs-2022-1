@@ -1,10 +1,10 @@
 package com.example.aula09.Exercicio1;
 
 public class Animal {
-    public String nome;
-    public int idade;
-    public String som;  
-    public String movimento;  
+    private String nome;
+    private int idade;
+    private String som;  
+    private String movimento;  
     
     public Animal(String nome, int idade, String som, String movimento) {
         this.nome = nome;
