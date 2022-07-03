@@ -1,11 +1,14 @@
 package com.example.aula09.Exercicio2;
 
+import org.springframework.context.annotation.Description;
+
 public class Mouse extends Produto {
 
     private String tipo;
 
-	public Mouse(String nomeLoja, int preco, String descricao) {
+	public Mouse(String nomeLoja, int preco, String descricao, String tipo) {
 		super(nomeLoja, preco, descricao);
+		this.tipo = tipo;
 	}
 
 	public String getTipo() {
@@ -18,7 +21,7 @@ public class Mouse extends Produto {
 
 	@Override
 	public String getDescricao() {		
-		return "Mouse otico, saida USB, 1.600 DPI" + " " + tipo;
+		return super.getDescricao() + " " + tipo;
 	}
     
 

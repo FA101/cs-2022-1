@@ -32,7 +32,7 @@ public class Produto {
 	}
 
 	public String getDescricao() {
-		return "Produto de Informatica";
+		return descricao;
 	}
 
     
