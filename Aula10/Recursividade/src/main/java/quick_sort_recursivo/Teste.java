@@ -1,24 +1,14 @@
-package quicksortiter;
+package quick_sort_recursivo;
 
 import java.util.Random;
 
-public class TesteIter {
-    private static final int T = 100;
-    private static final int T1 = 1000;
-    private static final int T2 = 10000;
+public class Teste {   
+    static int T = 100;
+    static int T1 = 1000;
+    static int T2 = 10000;
 
-    public class Pair{
-        private final int x;
-        private final int y;
-        Pair(int x, int y){
-            this.x = x;
-            this.y = y;
-        }
-        public int getX() { return x; }
-        public int getY() { return y; }
-    }
+    public static void main(String[] args) {    
 
-    public static void main(String[] args) {            
         int[] vetor = new int[T];
         int[] vetor1 = new int[T1];
         int[] vetor2 = new int[T2];
@@ -36,19 +26,19 @@ public class TesteIter {
         }
 
         long inicio = System.currentTimeMillis();        
-        QuickSortIterativo sort = new QuickSortIterativo(); 
+        QuickSortRecursivo sort = new QuickSortRecursivo(); 
         sort.ordenarVetorDeInteiros(vetor);
         long fim = System.currentTimeMillis();
         long tempo = (fim - inicio);  
 
         long inicio1 = System.currentTimeMillis();                
-        QuickSortIterativo sort1 = new QuickSortIterativo();           
+        QuickSortRecursivo sort1 = new QuickSortRecursivo();           
         sort1.ordenarVetorDeInteiros(vetor1);
         long fim1 = System.currentTimeMillis();
         long tempo1 = (fim1 - inicio1);  
 
         long inicio2 = System.currentTimeMillis();        
-        QuickSortIterativo sort2 = new QuickSortIterativo();
+        QuickSortRecursivo sort2 = new QuickSortRecursivo();
         sort2.ordenarVetorDeInteiros(vetor2);
         long fim2 = System.currentTimeMillis();        
         long tempo2 = (fim2 - inicio2);  
@@ -95,6 +85,4 @@ public class TesteIter {
         int upperbound2 = T2;             
         return rand2.nextInt(upperbound2);            
     }
-
-    
 }

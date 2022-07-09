@@ -1,10 +1,13 @@
-package quicksortiter;
+package quick_sort_iterativo;
 
 import java.util.Arrays;
 import java.util.Stack;
+
+import org.springframework.data.util.Pair;
+
 import java.util.Random;
 
-public class QuickSortInterativo{    
+public class QuickSortIterativo{    
     public static void swap (int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
