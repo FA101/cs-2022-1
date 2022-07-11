@@ -2,10 +2,9 @@ package quick_sort_iterativo;
 
 import java.util.Arrays;
 import java.util.Stack;
-
 import org.springframework.data.util.Pair;
-
 import java.util.Random;
+
 
 public class QuickSortIterativo{    
     public static void swap (int[] arr, int i, int j){
@@ -14,7 +13,7 @@ public class QuickSortIterativo{
         arr[j] = temp;
     }
 
-    public static int partition(int a[], int start, int end){       
+    public static int partition(int[] a, int start, int end){       
         int pivot = a[end];
         int pIndex = start;
         for (int i = start; i < end; i++){
@@ -27,8 +26,8 @@ public class QuickSortIterativo{
         return pIndex;
     }
 
-    public static void ordenarVetorDeInteiros(int[] a){
-        Stack<Pair> stack = new Stack<>();     
+    public void ordenarVetorDeInteiros(int[] a){
+        Stack<Pair<Integer, Integer>> stack = new Stack<>();     
         int start = 0;
         int end = a.length - 1;
         stack.push(new Pair(start, end));

@@ -1,13 +1,12 @@
 package quick_sort_iterativo;
 
 // Uma classe de pares simples em Java
-public class Pair
-{
-    private final int x;
-    private final int y;
+public class Pair{
+    
+    public final int x;
+    public final int y;
 
-    Pair(int x, int y)
-    {
+    public Pair(int x, int y) {
         this.x = x;
         this.y = y;
     }
