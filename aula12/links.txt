@@ -1,0 +1,13 @@
+java: 
+https://www.devmedia.com.br/como-tratar-excecoes-na-linguagem-java/39163
+http://www.universidadejava.com.br/java/java-excecoes/
+python: 
+http://www.estruturas.ufpr.br/disciplinas/pos-graduacao/introducao-a-computacao-cientifica-com-python/introducao-python/1-8-tratamento-de-excecoes-em-python/
+https://docs.python.org/pt-br/3/tutorial/errors.html
+JavaScript:
+https://danieldcs.com/tratamento-de-erros-e-excecoes-em-javascript/
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
+C#:
+https://www.devmedia.com.br/tratamento-de-excecoes-em-csharp/26106#:~:text=Um%20exemplo%20na%20pr%C3%A1tica%20%C3%A9,sistema%20ir%C3%A1%20parar%20o%20programa.
+https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/
+

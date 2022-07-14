@@ -1,0 +1,22 @@
+
+
+2021-09-10 20:01:15 ERROR HelloExample2:16 - Sorry, something wrong!
+java.lang.ArithmeticException: / by zero
+	at excecao.HelloExample2.divide(HelloExample2.java:24)
+	at excecao.HelloExample2.main(HelloExample2.java:14)
+2021-09-10 20:01:45 ERROR HelloExample2:16 - Sorry, something wrong!
+java.lang.ArithmeticException: / by zero
+	at excecao.HelloExample2.divide(HelloExample2.java:24)
+	at excecao.HelloExample2.main(HelloExample2.java:14)
+2021-09-10 20:01:51 ERROR HelloExample2:16 - Sorry, something wrong!
+java.lang.ArithmeticException: / by zero
+	at excecao.HelloExample2.divide(HelloExample2.java:24)
+	at excecao.HelloExample2.main(HelloExample2.java:14)
+2021-09-10 20:04:19 ERROR HelloExample2:16 - Sorry, something wrong!
+java.lang.ArithmeticException: / by zero
+	at excecao.HelloExample2.divide(HelloExample2.java:24)
+	at excecao.HelloExample2.main(HelloExample2.java:14)
+2021-09-10 20:05:13 ERROR HelloExample2:16 - Sorry, something wrong!
+java.lang.ArithmeticException: / by zero
+	at excecao.HelloExample2.divide(HelloExample2.java:24)
+	at excecao.HelloExample2.main(HelloExample2.java:14)
