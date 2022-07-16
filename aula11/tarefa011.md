@@ -1,6 +1,8 @@
 # Tarefa 011 - Padrões de Codificação (Leiaute e estilo), Reflexão e Programação defensiva - 08/07/2022
 
 1. Fazer uma pesquisa sobre os três temas componentes do temas: **Padrões de Codificação**, **Reflexão** e **Programação Defensiva**:
+ 
+Exemplos
 
   1.1. Sugestão de links para a pesquisa sobre Padrões de Codificação:
 
@@ -37,7 +39,28 @@
   2.2 - Um descrição de quando, onde e porque utilizá-lo e
 
   2.3 - Um exemplo de utilização.
+ 
+### Padrões de Condificação  
+Trata-se de uma estrategia de programacao em ambientes colaborativos com foco em produtividade e confiabilidade através das convenções adotadas na codificacao. A aplicacao de padroes permite o codigo ser entendido melhor e mais rapido, dele ser mais consistente no projeto e conferir qualidade ao codigo.  
+  
+Do inglês _code standard_.  
 
+Exemplos incluem a utilização de boas práticas de programação para uma dada linguagem (classes em maiúsculo, variáveis CamelCase e sem começar com caracteres especiais etc), uso de coesão, baixo acoplamento (GRASP), Padrões de Projetos da GoF e padrões SOLID.
+  
+### Reflexão  
+Trata-se de uma estratégia aplicada a um codigo para ele conseguir analisar e modificar seu próprio formato, invocando e inspecionando atributos, classes, interfaces  durante o _runtime_ e sem saber o nome delas. É com a reflexão que se instancia um objeto dinamicamente.  
+    
+Do inglês _code reflection_.  
+  
+Exemplos incluem os testes unitários realizados pela ferramenta JUnity na IDE Eclipse.  
+  
+### Programação Defensiva  
+Trata-se de uma estratégia de fazer um programa funcionar mesmo com exceções e imprevistos, ou seja, com técnicas de tratamento de exceções e testes. O intuito é reduzir código desnecessário ou fontes de falhas, e aumentar a confiabilidade sobre o código.  
+      
+Do inglês _defensive programming_.  
+
+Exemplos incluem o uso de padrões _try-catch-finally_ para invocar os tratamentos de exceção adequados a cada caso.
+  
 **INSTRUÇÕES**
 1. A entrega deve ser feita no seu repositório pessoal, utilizado para a disciplina, dentro de uma pasta chamada **tarefa011**.
 2. O prazo para entrega desta tarefa é as 23h59min do dia 08/07/2022, as 23h59min.
