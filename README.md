@@ -8,7 +8,7 @@ Gestão das atividades
 ### aula07 OK  
 ### aula08 OK  
 ### aula09 OK  
-### aula10  
-### aula11  
+### aula10 OK   
+### aula11 OK    
 ### aula12  
 ### aula13  
