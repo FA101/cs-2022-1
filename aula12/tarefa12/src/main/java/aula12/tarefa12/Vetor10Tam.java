@@ -1,4 +1,6 @@
-package aula11.tarefa11;
+//Exercicio 2 da aula12
+
+package aula12.tarefa12;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
