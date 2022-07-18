@@ -2,11 +2,14 @@
 
 package aula12.tarefa12;
 
-import java.util.Scanner;
-
 public class Login {
     private String usuario;
     private String senha;
+
+    public Login(String usuario, String senha) {
+        this.usuario = usuario;
+        this.senha = senha;
+    }
 
     public String getUsuario() {
         return usuario;
@@ -26,9 +29,9 @@ public class Login {
 
     public boolean fazerLogin(String usuario, String senha){             
         if(usuario.equals(getUsuario()) && senha.equals(getSenha())){
-            return 1;
+            return true;
         } else{        
-            return 0;
+            return false;
         }            
     }
 }

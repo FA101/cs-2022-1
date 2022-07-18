@@ -5,7 +5,7 @@ package aula12.tarefa12;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Excecao2Numeros {
+public class TesteExcecaoDoisNumeros {
     public int dividir(int a, int b) 
     {        
         return a/b;
@@ -14,8 +14,9 @@ public class Excecao2Numeros {
     public static void main(String[] args) {
 
         
-        Excecao2Numeros calc = new Excecao2Numeros();
+        TesteExcecaoDoisNumeros calc = new TesteExcecaoDoisNumeros();
         Scanner scanner = new Scanner(System.in);
+        
         try{               
             System.out.println("Informe o dividendo: ");
             int x1 = scanner.nextInt();         

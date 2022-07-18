@@ -5,7 +5,7 @@ package aula12.tarefa12;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Vetor10Tam {
+public class TesteVetor {
     public static void main(String[] args) {
         int[] vet = new int[10]; //e preciso definir o tamanho do array quando ele e instanciado
         Scanner scanner = new Scanner(System.in);
