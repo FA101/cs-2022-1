@@ -10,5 +10,5 @@ Gestão das atividades
 ### aula09 OK  
 ### aula10 OK   
 ### aula11 OK    
-### aula12  
+### aula12 ok  
 ### aula13  
