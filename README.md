@@ -14,7 +14,7 @@ Gestão das atividades
 ### aula13 OK  
 ### aula14 OK  
 ### aula15 OK  
-### aula16   
-### aula17   
+### aula16 OK   
+### aula17 OK  
 ### aula18   
 ### aula19   
